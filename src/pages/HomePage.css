@@ -1,7 +1,8 @@
 .home-page {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .home-header {
@@ -45,7 +46,9 @@
 
 .home-main {
   flex: 1;
-  padding: 2rem;
+  padding: 1.5rem;
+  overflow: hidden;
+  min-height: 0;
 }
 
 .loading {

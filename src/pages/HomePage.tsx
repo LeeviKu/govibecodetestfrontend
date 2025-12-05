@@ -1,4 +1,5 @@
 import { useAuth } from '../context/AuthContext';
+import { FileExplorer } from '../components/FileExplorer';
 import './HomePage.css';
 
 export function HomePage() {
@@ -20,7 +21,7 @@ export function HomePage() {
         </div>
       </header>
       <main className="home-main">
-        <p>Welcome! You are logged in.</p>
+        <FileExplorer />
       </main>
     </div>
   );
